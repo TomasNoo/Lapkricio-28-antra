@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Resetas*/
+
+body {
+	background-color:rgba(192,192,192,0.3);
+}
+
+div {
+	display: block;
+	margin: 20% auto;
+	width: 80%;
+	font-size: 0;
+	/*background-color: yellow;
+*/
+}
+
+span:last-child {
+	float: right;
+}
+
+span {
+	background-color: white;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 49%;
+	font-size: 12px;
+	/*padding: 20px;*/
+	/*margin: 20px;*/ 
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+	color: #B8E4FF
+}
+
+
+h2 {
+	font-size: 16px;
+	color: grey;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*div span:first-child {
+	border-radius: 5px;
+	padding: 15px;
+}
+
+
+
+div span:last-child {
+	border-radius: 5px;
+	padding: 15px;
+}
+*/
+button {
+	background-color: #B8E4FF;
+	padding: 15px
+}
+span:nth-of-type(2) button{
+	background-color: #FFAE1A;
+	padding: 15px
+}
+
+span ul li {
+	color: #D6D0C3;
+	padding: 10px;
+}
